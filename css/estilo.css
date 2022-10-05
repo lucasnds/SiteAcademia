@@ -17,7 +17,6 @@
             
             #menu_principal {
                 width: 621px;
-                height: 80px;
                 left: 750px;
                 top: 0px;
             }
@@ -132,16 +131,11 @@
             }
             
             #contato_treinadores h2 {
-                width: 647px;
-                height: 60px;
-                left: 397px;
-                top: 870px;
                 font-family: 'Inter';
                 font-style: normal;
                 font-weight: 600;
                 font-size: 48px;
                 line-height: 22px;
-                display: flex;
                 align-items: center;
                 text-align: center;
                 letter-spacing: 1px;
@@ -159,6 +153,7 @@
             }
             
             a.btn_contato {
+                justify-content: center;
                 display: flex;
                 width: 665px;
                 height: 78px;
@@ -255,6 +250,24 @@
                 top: 2080px;
             }
             
+            .fotos2 {
+                padding: 80px 0px 0px 0px;
+            }
+            
+            .grid_blogs2 {
+                padding: 40px 0px 0px 0px;
+            }
+            
+            #blog a {
+                color: #C21E6F;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                letter-spacing: 0.3px;
+                text-decoration: none;
+            }
+            
             #geo h2 {
                 font-family: 'Inter';
                 font-style: normal;
@@ -311,6 +324,7 @@
             }
             
             a.btn_final {
+                justify-content: center;
                 display: flex;
                 flex-direction: row;
                 align-items: flex-start;
@@ -334,4 +348,8 @@
             
             a:hover.btn_final {
                 background-color: #737373;
+            }
+            
+            .coluna3 img {
+                padding: 0px 10px;
             }
