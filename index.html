@@ -14,126 +14,150 @@
 <body>
 
     <header>
-        <img src="./imagens/H1 A Logo.png">
-        <nav class="menu_principal">
-            <ul>
-                <li><a href="#banner" id="menu_rosa">CARTÕES DE CLUBE</a></li>
-                <li><a href="#final">CRONOGRAMA</a></li>
-                <li><a href="#contato_treinadores">EQUIPE</a></li>
-                <li><a href="#banner">SOBRE NÓS</a></li>
+        <section class="top-nav">
+            <div>
+                <img src="./imagens/logo.png" alt="Logo"> </div>
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+          </label>
+            <ul class="menu">
+                <li>
+                    <a href="#">CARTÕES DO CLUBE</a>
+                </li>
+                <li>
+                    <a href="#">CRONOGRAMA</a>
+                </li>
+                <li>
+                    <a href="#">EQUIPE</a>
+                </li>
+                <li>
+                    <a href="#">SOBRE NÓS</a>
+                </li>
             </ul>
-        </nav>
+        </section>
     </header>
     <main>
         <section class="banner">
-            <div class="text_banner">
-                <h1>GINÁSTICA <br>DA<br> NOVA GERAÇÃO</h1>
-                <p>A primeira academia de ginástica de classe "premium light" em Kryvyi Rih, criada para pessoas que valorizam o conforto e desejam treinar em uma academia moderna.</p>
-                <a href="#" id="btn_banner">Mais Detalhes</a>
+            <div class="grid-banner">
+                <div class="text-banner">
+                    <h1>GINÁSTICA <br>DA<br> NOVA GERAÇÃO</h1>
+                    <p>A primeira academia de ginástica de classe "premium light" em Kryvyi Rih, criada para pessoas que valorizam o conforto e desejam treinar em uma academia moderna.</p>
+                </div>
+                <div id="foto-center"> <img src="./imagens/Hero-girl.png">
+                </div>
+                <a href="#" id="btn_banner">MAIS DETALHES</a>
             </div>
-            <img src="./imagens/Hero-girl.png">
         </section>
         <section class="contato_treinadores">
             <h2>EQUIPE DE TREINADORES</h2>
-            <div class="todos_treinadores">
-                <div class="grid_treinadores">
-                    <img src="./imagens/Tetiane.png">
-                    <p>TETIANE SHAPOVALOVA </p>
+            <div class="grid-professores">
+                <div class="professor">
+                    <img src="./imagens/Tetiane.png" alt="">
+                    <p>TATIANE SHAPOVALOVA</p>
                 </div>
-                <div class="grid_treinadores">
-                    <img src="./imagens/andriy.png">
-                    <p>ANDRIY POPOVYCH </p>
+                <div class="professor">
+                    <img src="./imagens/andriy.png" alt="">
+                    <p>ANDRIY POPOVYCH</p>
                 </div>
-                <div class="grid_treinadores">
-                    <img src="./imagens/natalia.png">
+                <div class="professor">
+                    <img src="./imagens/natalia.png" alt="">
                     <p>NATALIA GORDIENKO </p>
                 </div>
-                <div class="grid_treinadores">
-                    <img src="./imagens/serghiy.png">
+                <div class="professor">
+                    <img src="./imagens/serghiy.png" alt="">
                     <p>SERGHIY KLAP</p>
                 </div>
-                <div class="grid_treinadores">
-                    <img src="./imagens/SIMERYAGA.png">
+                <div class="professor">
+                    <img src="./imagens/SIMERYAGA.png" alt="">
                     <p>SIMERYAGA ALEXANDER</p>
                 </div>
-                <div class="grid_treinadores">
-                    <img src="./imagens/ISKANDOROVA.png">
+                <div class="professor">
+                    <img src="./imagens/ISKANDOROVA.png" alt="">
                     <p>ISKANDOROVA DILNURA</p>
                 </div>
-                <div class="grid_treinadores">
-                    <img src="./imagens/COMPRE.png">
+                <div class="professor">
+                    <img src="./imagens/COMPRE.png" alt="">
                     <p>COMPRE EDUARD</p>
                 </div>
-                <div class="grid_treinadores">
-                    <img src="./imagens/POLIEVA.png">
+                <div class="professor">
+                    <img src="./imagens/POLIEVA.png" alt="">
                     <p>POLIEVA ALINA</p>
                 </div>
             </div>
-
             <a href="#" id="btn_contato">Inscreva-se para um treinamento experimental</a>
         </section>
 
         <section class="blog">
-            <div class="grid_blogs1">
-                <h2>QUE ERROS DEVEM EVITAR DURANTE O TREINAMENTO DE IMPRENSA?</h2>
+            <div class="grid-blog">
+                <div class="text-blog">
+                    <h2>QUE ERROS DEVEM EVITAR DURANTE O TREINAMENTO DE IMPRENSA?</h2>
 
-                <p>Concentre-se apenas no treinamento. Quando os braços e as pernas estão normais e a gordura se acumula na cintura e no abdômen, isso pode indicar distúrbios endócrinos, e não o fato de você precisar fazer mais exercícios abdominais. Neste
-                    caso, os exercícios por si só não vão ajudar. Em primeiro lugar, é importante prestar atenção à saúde e, talvez, depois disso, a questão de como inflar a imprensa não surja mais.</p>
-
-                <br>
-                <br>
-                <a href="#">Leia Mais...</a>
-            </div>
-            <div class="fotos1"> <img src="./imagens/alongamento.png"></div>
-            <div class="fotos2"><img src="./imagens/stiff.png"></div>
-            <div class="grid_blogs2">
-                <h3>Por que não é possível colocar Abdomen definido?</h3>
-                <h6>Para obter um resultado legal, precisamos de um trabalho abrangente: nutrição + treinamento com um conjunto eficaz de exercícios. Tudo deve ser feito passo a passo. Para começar, você precisa passar pela fase preparatória do treinamento.
-                    Qual é o primeiro passo certo que permitirá que você construa adequadamente todos os processos no corpo e se prepare para cargas um pouco mais pesadas.</h6>
+                    <p>Concentre-se apenas no treinamento. Quando os braços e as pernas estão normais e a gordura se acumula na cintura e no abdômen, isso pode indicar distúrbios endócrinos, e não o fato de você precisar fazer mais exercícios abdominais.
+                        Neste caso, os exercícios por si só não vão ajudar. Em primeiro lugar, é importante prestar atenção à saúde e, talvez, depois disso, a questão de como inflar a imprensa não surja mais.</p>
 
 
-                <a href="#">Leia Mais...</a>
-            </div>
+                    <a href=" # ">Leia Mais...</a>
+                </div>
+                <div class="fotos1"> <img src="./imagens/alongamento.png"></div>
+                <div class="fotos2"><img src="./imagens/stiff.png"></div>
+                <div class="text-blog">
+                    <h2>Por que não é possível colocar Abdomen definido?</h2>
+                    <p>Para obter um resultado legal, precisamos de um trabalho abrangente: nutrição + treinamento com um conjunto eficaz de exercícios. Tudo deve ser feito passo a passo. Para começar, você precisa passar pela fase preparatória do treinamento.
+                        Qual é o primeiro passo certo que permitirá que você construa adequadamente todos os processos no corpo e se prepare para cargas um pouco mais pesadas.</p>
 
+
+                    <a href="# ">Leia Mais...</a>
+                </div>
         </section>
-        <section class="geo">
-            <h2>A área do clube é mais de 1200m2</h2>
-            <img src="./imagens/gps.png"> </section>
 
+        <section class="geo ">
+            <h4>A área do clube são mais de 1200m²</h4>
+            <img src="./imagens/gps.png "> </section>
+
+
+
+        <footer>
+            <div class="grid-footer">
+                <div class="coluna">
+                    <div class="grid_contato ">
+                        <img src="./imagens/phone.svg ">
+                        <p>Telefone:</p>
+                    </div>
+                    <p>(098)700 55 55</p>
+                </div>
+                <div class="coluna">
+                    <div class="grid_contato ">
+                        <img src="./imagens/Group.svg ">
+                        <p>Endereço:</p>
+                    </div>
+                    <p>Kryvyi Rih, str. Unidade, 6</p>
+                </div>
+                <div class="coluna">
+                    <div class="grid_contato ">
+                        <img src="./imagens/clock.svg ">
+                        <p>Horário de trabalho:</p>
+                    </div>
+                    <p>Seg-Sex 7:00-20:00</p>
+                    <p>Sáb 9:00-19:00</p>
+                    <p>Seg 09:00-18:00</p>
+                </div>
+                <div class="coluna">
+                    <p>Redes Sociais</p>
+                    <div class="gap">
+                        <a href="# "><img src="./imagens/instagram.svg "></a>
+                        <a href="# "><img src="./imagens/face.svg "></a>
+                    </div>
+                </div>
+
+
+            </div>
+            <div>
+                <a href="# " id="btn_final">Inscreva-se</a>
+            </div>
+        </footer>
+    </main>
 </body>
-<footer class="final">
-    <div class="coluna1">
-        <div class="grid_contato">
-            <img src="./imagens/phone.svg">
-            <p>Telefone:</p>
-        </div>
-        <h3>(098)700 55 55</h3>
-        <div class="grid_contato">
-            <img src="./imagens/Group.svg">
-            <p>Endereço:</p>
-        </div>
-        <h3>Kryvyi Rih, str. Unidade, 6</h3>
-    </div>
-    <div class="coluna2">
-        <div class="grid_contato">
-            <img src="./imagens/clock.svg">
-            <p>Horário de trabalho:</p>
-        </div>
-        <h3>Seg-Sex 7:00-20:00</h3>
-        <h3>Sáb 9:00-19:00</h3>
-        <h3>Seg 09:00-18:00</h3>
-    </div>
-    <div class="coluna3">
-        <p>Redes Sociais</p>
-        <a href="#"><img src="./imagens/instagram.svg"></a>
-        <a href="#"><img src="./imagens/face.svg"></a>
-    </div>
 
-    <div class="coluna4">
-        <a href="#" id="btn_final">Inscreva-se</a>
-    </div>
-
-</footer>
-</main>
 
 </html>

@@ -1,330 +1,475 @@
-                body {
-                    background-color: #1E1E1E;
-                    max-width: 1360px;
-                    margin: 0 auto;
-                }
-                
-                header {
-                    width: 100%;
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-                }
-                
-                .menu_principal {
-                    width: 621px;
-                    left: 750px;
-                }
-                
-                .menu_principal ul li {
-                    list-style: none;
-                }
-                
-                .menu_principal ul li a {
-                    font-family: 'Inter';
-                    font-weight: 400;
-                    font-size: 20px;
-                    color: #FFFFFF;
-                    float: left;
-                    margin-right: 10px;
-                    text-decoration: none;
-                    padding-top: 80px;
-                }
-                
-                .menu_principal ul li a:hover {
-                    color: #C21E6F;
-                }
-                
-                .menu_principal a#menu_rosa {
-                    background-color: #C21E6F;
-                    padding-top: 80px;
-                }
-                
-                .menu_principal a#menu_rosa:hover {
-                    color: #1E1E1E;
-                }
-                
-                .banner {
-                    width: 100%;
-                    display: flex;
-                    border-bottom: #C21E6F 4px solid;
-                    padding: 141px 0px 0px 0px;
-                }
-                
-                .banner h1 {
-                    font-family: 'Inter';
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 90px;
-                    line-height: 109px;
-                    color: #FAFAF9;
-                    width: 883px;
-                    height: 340px;
-                }
-                
-                .banner img {
-                    width: 50%;
-                }
-                
-                .banner p {
-                    font-family: 'Inter';
-                    font-style: normal;
-                    letter-spacing: 0.5px;
-                    font-weight: 400;
-                    font-size: 16px;
-                    line-height: 24px;
-                    color: rgba(239, 237, 232, 0.65);
-                    width: 599px;
-                    height: 72px;
-                }
-                
-                a#btn_banner {
-                    justify-content: center;
-                    width: 229px;
-                    display: flex;
-                    align-items: center;
-                    padding: 24px 25px;
-                    gap: 10px;
-                    border-radius: 10px;
-                    background: #C21E6F;
-                    font-family: 'Inter';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 22px;
-                    line-height: 29.5px;
-                    text-transform: uppercase;
-                    text-decoration: none;
-                    color: #FFFFFF;
-                }
-                
-                a:hover#btn_banner {
-                    background-color: #737373;
-                }
-                
-                .contato_treinadores {
-                    width: 100%;
-                }
-                
-                .todos_treinadores {
-                    width: 100%;
-                    display: grid;
-                    grid-template-columns: repeat(4, 1fr);
-                    padding: 0px 0px 141px 0px;
-                }
-                
-                .contato_treinadores h2 {
-                    font-family: 'Inter';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 48px;
-                    line-height: 22px;
-                    align-items: center;
-                    text-align: center;
-                    letter-spacing: 1px;
-                    color: #FFFFFF;
-                }
-                
-                .contato_treinadores p {
-                    font-family: 'Inter';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 22px;
-                    line-height: 30px;
-                    letter-spacing: 0.5px;
-                    color: #FFFFFF;
-                }
-                
-                a#btn_contato {
-                    justify-content: center;
-                    display: flex;
-                    width: 665px;
-                    padding: 30px;
-                    background: #C21E6F;
-                    border-radius: 10px;
-                    margin-left: auto;
-                    margin-right: auto;
-                    font-family: 'Inter';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 20px;
-                    line-height: 30px;
-                    text-align: center;
-                    text-transform: uppercase;
-                    text-decoration: none;
-                    color: #FFFFFF;
-                }
-                
-                a:hover#btn_contato {
-                    background-color: #737373;
-                }
-                
-                .blog {
-                    width: 100%;
-                    display: grid;
-                    grid-template-columns: repeat(2, 1fr);
-                    padding: 141px 0px 50px 0px;
-                }
-                
-                .blog h2 {
-                    width: 526px;
-                    height: 150px;
-                    left: 111px;
-                    top: 2121px;
-                    font-family: 'Inter';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 35px;
-                    line-height: 50px;
-                    letter-spacing: 0.3px;
-                    color: #FAFAF9;
-                    text-transform: uppercase;
-                }
-                
-                .blog h3 {
-                    width: 591px;
-                    height: 100px;
-                    left: 749px;
-                    top: 2795px;
-                    font-family: 'Inter';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 35px;
-                    line-height: 50px;
-                    letter-spacing: 0.3px;
-                    color: #FAFAF9;
-                    text-transform: uppercase;
-                }
-                
-                .blog p {
-                    width: 480px;
-                    height: 120px;
-                    left: 114px;
-                    top: 2301px;
-                    font-family: 'Inter';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 14px;
-                    line-height: 24px;
-                    letter-spacing: 0.3px;
-                    color: rgba(239, 237, 232, 0.65);
-                }
-                
-                .blog h6 {
-                    width: 523px;
-                    height: 120px;
-                    left: 749px;
-                    top: 2987px;
-                    font-family: 'Inter';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 14px;
-                    line-height: 24px;
-                    letter-spacing: 0.3px;
-                    color: rgba(239, 237, 232, 0.65);
-                }
-                
-                .blog img {
-                    width: 560px;
-                    height: 539px;
-                    left: 706px;
-                    top: 2080px;
-                }
-                
-                .blog a {
-                    color: #C21E6F;
-                    font-family: 'Inter';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 14px;
-                    letter-spacing: 0.3px;
-                    text-decoration: none;
-                }
-                
-                .fotos2 {
-                    padding: 80px 0px 0px 0px;
-                }
-                
-                .grid_blogs2 {
-                    padding: 40px 0px 0px 0px;
-                }
-                
-                .geo h2 {
-                    font-family: 'Inter';
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 48px;
-                    letter-spacing: 1px;
-                    text-transform: uppercase;
-                    color: #FFFFFF;
-                    padding: 50px 0px 0px 0px;
-                }
-                
-                .geo img {
-                    padding: 0px 0px 30px 0px;
-                }
-                
-                .final {
-                    width: 100%;
-                    display: grid;
-                    grid-template-columns: repeat(4, 1fr);
-                }
-                
-                footer {
-                    padding: 50px 0px -50px 0px;
-                }
-                
-                footer p {
-                    font-family: 'Inter';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 16px;
-                    line-height: 24px;
-                    letter-spacing: 0.5px;
-                    color: rgba(255, 248, 248, 0.65);
-                }
-                
-                footer h3 {
-                    font-family: 'Inter';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 22px;
-                    line-height: 30px;
-                    display: flex;
-                    align-items: center;
-                    letter-spacing: 0.5px;
-                    color: #FFF8F8;
-                }
-                
-                .grid_contato {
-                    display: flex;
-                    gap: 15px;
-                }
-                
-                a#btn_final {
-                    justify-content: center;
-                    display: flex;
-                    flex-direction: row;
-                    align-items: flex-start;
-                    padding: 24px 25px;
-                    gap: 10px;
-                    width: 215px;
-                    background: #C21E6F;
-                    border-radius: 10px;
-                    font-family: 'Inter';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 20px;
-                    line-height: 30px;
-                    text-align: center;
-                    text-transform: uppercase;
-                    text-decoration: none;
-                    color: #FFFFFF;
-                }
-                
-                a:hover#btn_final {
-                    background-color: #737373;
-                }
-                
-                .coluna3 img {
-                    padding: 0px 10px;
-                }
+    * {
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    html {
+        font-size: 62.5%;
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        background-color: #1E1E1E;
+        max-width: 1440px;
+        margin: 0 auto;
+        font-family: 'Inter', sans-serif;
+    }
+    /* ___________________________________________________________________________ */
+    
+    .top-nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        color: #FFF;
+        height: 50px;
+        padding: 1em;
+        margin-top: 10px;
+    }
+    
+    .menu {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .menu>li {
+        margin: 0rem 1rem;
+        overflow: hidden;
+    }
+    
+    .menu-button-container {
+        display: none;
+        height: 100%;
+        width: 30px;
+        cursor: pointer;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #menu-toggle {
+        display: none;
+    }
+    
+    header a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.6rem;
+    }
+    
+    header a:hover {
+        background-color: #C21E6F;
+    }
+    
+    .menu-button,
+    .menu-button::before,
+    .menu-button::after {
+        display: block;
+        background-color: #fff;
+        position: absolute;
+        height: 4px;
+        width: 30px;
+        transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+        border-radius: 2px;
+    }
+    
+    .menu-button::before {
+        content: '';
+        margin-top: -8px;
+    }
+    
+    .menu-button::after {
+        content: '';
+        margin-top: 8px;
+    }
+    
+    #menu-toggle:checked+.menu-button-container .menu-button::before {
+        margin-top: 0px;
+        transform: rotate(45deg);
+    }
+    
+    #menu-toggle:checked+.menu-button-container .menu-button {
+        background: rgba(255, 255, 255, 0);
+    }
+    
+    #menu-toggle:checked+.menu-button-container .menu-button::after {
+        margin-top: 0px;
+        transform: rotate(-45deg);
+    }
+    
+    @media (max-width: 700px) {
+        .top-nav img {
+            width: 191px;
+            height: 50px;
+        }
+        .menu-button-container {
+            display: flex;
+        }
+        .menu {
+            position: absolute;
+            top: 10px;
+            margin-top: 50px;
+            left: 0;
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+        #menu-toggle~.menu li {
+            height: 0;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+        }
+        #menu-toggle:checked~.menu li {
+            border: 1px solid #333;
+            height: 5em;
+            padding: 1.5em;
+            transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+        }
+        .menu>li {
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0.5em 0;
+            width: 100%;
+            color: white;
+            background-color: rgba(34, 34, 34, 0.8);
+        }
+        .menu>li:not(:last-child) {
+            border-bottom: 1px solid #444;
+        }
+    }
+    /* _______________________________________________________________________ */
+    
+    .text-banner {
+        margin: 5%;
+    }
+    
+    .banner {
+        width: 100%;
+        display: flex;
+        border-bottom: #C21E6F 4px solid;
+        margin-top: 10%;
+    }
+    
+    .banner h1 {
+        font-style: normal;
+        font-weight: 700;
+        color: #FAFAF9;
+        font-size: 7.5rem;
+    }
+    /*     
+    .banner img {} */
+    
+    .banner p {
+        font-style: normal;
+        letter-spacing: 0.5px;
+        font-weight: 400;
+        font-size: 1.6rem;
+        color: rgba(239, 237, 232, 0.65);
+        width: 70%;
+        margin: 2.0rem 0;
+    }
+    
+    a#btn_banner {
+        justify-content: center;
+        width: 30%;
+        display: flex;
+        align-items: center;
+        padding: 20px 30px;
+        border-radius: 10px;
+        background: #C21E6F;
+        font-weight: 400;
+        font-size: 1.8rem;
+        text-decoration: none;
+        color: #FFFFFF;
+        margin-top: -120px;
+        margin-bottom: 40px;
+    }
+    
+    .grid-banner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+        margin: 0 auto;
+        grid-gap: 10px;
+    }
+    
+    #foto-center {
+        text-align: center;
+    }
+    
+    a:hover#btn_banner {
+        background-color: #737373;
+    }
+    
+    .contato_treinadores {
+        width: 100%;
+    }
+    
+    @media(max-width:700px) {
+        .banner h1 {
+            font-size: 4.0rem;
+            text-align: center;
+        }
+        .banner p {
+            width: 100%;
+            text-align: center;
+        }
+        a#btn_banner {
+            width: 50%;
+            padding: 10px 20px;
+            font-size: 1.8rem;
+            margin: 20px auto;
+        }
+        .banner img {
+            width: 320px;
+            height: 463px;
+        }
+        .grid-banner {
+            display: grid;
+            grid-template-columns: 1fr;
+            justify-content: space-between;
+            margin: 0 auto;
+            grid-gap: 10px;
+            text-align: center;
+        }
+    }
+    
+    .grid-professores {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-gap: 10px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    .contato_treinadores h2 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 4.8rem;
+        line-height: 22px;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        margin: 4.0rem 0;
+    }
+    
+    .contato_treinadores p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.0rem;
+        letter-spacing: 0.5px;
+        color: #FFFFFF;
+    }
+    
+    a#btn_contato {
+        justify-content: center;
+        display: flex;
+        background: #C21E6F;
+        border-radius: 10px;
+        margin: 0 auto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #FFFFFF;
+        padding: 15px 10px;
+        width: 45%;
+    }
+    
+    a:hover#btn_contato {
+        background-color: #737373;
+    }
+    
+    @media(max-width:700px) {
+        .contato_treinadores h2 {
+            font-size: 2.4rem;
+            text-align: center;
+        }
+        .contato_treinadores p {
+            font-size: 1.8rem;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        a#btn_contato {
+            width: 80%;
+            font-size: 1.4rem;
+            padding: 10px 8px;
+        }
+    }
+    
+    .grid-blog {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+        margin: 0 auto;
+        grid-gap: 10px;
+    }
+    
+    .blog {
+        width: 100%;
+        padding: 141px 0px 50px 0px;
+    }
+    
+    .text-blog {
+        margin: 5%;
+    }
+    
+    .text-blog h2 {
+        font-weight: 600;
+        font-size: 35px;
+        letter-spacing: 0.3px;
+        color: #FAFAF9;
+        text-transform: uppercase;
+    }
+    
+    .text-blog p {
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 0.3px;
+        color: rgba(239, 237, 232, 0.65);
+    }
+    
+    .blog a {
+        color: #C21E6F;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 0.3px;
+        text-decoration: none;
+    }
+    
+    .fotos1,
+    .fotos2 {
+        text-align: center;
+    }
+    
+    .grid_blogs2 {
+        padding: 40px 0px 0px 0px;
+    }
+    
+    @media(max-width:700px) {
+        .grid-blog {
+            text-align: center;
+            grid-template-columns: 1fr;
+            justify-content: center;
+        }
+        .blog img {
+            width: 298px;
+            height: 265px;
+        }
+        .text-blog p {
+            text-align: justify;
+            margin: 10px;
+        }
+        .text-blog h2 {
+            font-size: 2.0rem;
+            margin: 10px;
+        }
+    }
+    
+    .geo h4 {
+        font-weight: 600;
+        font-size: 48px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding: 50px 0px 30px 0px;
+        text-align: center;
+    }
+    
+    .geo img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    @media(max-width:700px) {
+        .geo h4 {
+            font-size: 2.0rem;
+        }
+    }
+    
+    .grid-footer {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        align-items: center;
+        margin: 5% 0px;
+        grid-gap: 20px;
+    }
+    
+    footer p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        color: rgba(255, 248, 248, 0.65);
+    }
+    
+    footer p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.5px;
+        color: #FFF8F8;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    
+    .grid_contato {
+        display: flex;
+        gap: 15px;
+        text-align: center;
+    }
+    
+    a#btn_final {
+        justify-content: center;
+        display: flex;
+        padding: 25px;
+        gap: 10px;
+        width: 215px;
+        background: #C21E6F;
+        border-radius: 10px;
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #FFFFFF;
+        margin: 10px auto;
+    }
+    
+    @media(max-width:700px) {
+        a#btn_final {
+            font-size: 1.6rem;
+            padding: 15px;
+        }
+    }
+    
+    a:hover#btn_final {
+        background-color: #737373;
+    }
+    
+    .coluna {
+        margin: 0 auto;
+    }
+    
+    .gap {
+        margin: 5px auto;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
