@@ -328,7 +328,7 @@
     }
     
     .text-blog {
-        margin: 5%;
+        margin: 2%;
     }
     
     .text-blog h2 {
@@ -378,7 +378,6 @@
             justify-content: center;
         }
         .text-blog p {
-            text-align: justify;
             margin: 10px;
         }
         .text-blog h2 {
